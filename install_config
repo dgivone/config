@@ -1,0 +1,14 @@
+#!/bin/bash
+
+SCRIPT_NAME="$( basename "$0" )"
+SCRIPT_DIR="$( cd "$( dirname "$0" )" && pwd )"
+echo Dir: $SCRIPT_DIR
+echo Name: $SCRIPT_NAME
+
+ln -fs $SCRIPT_DIR/bashrc ~/.bashrc
+ln -fs $SCRIPT_DIR/bash_profile ~/.bash_profile
+ln -fs $SCRIPT_DIR/gitconfig ~/.gitconfig
+ln -fs $SCRIPT_DIR/gitignore ~/.gitignore
+ln -fs $SCRIPT_DIR/inputrc ~/.inputrc
+ln -fs $SCRIPT_DIR/profile ~/.profile
+ln -fs $SCRIPT_DIR/vimrc ~/.vimrc

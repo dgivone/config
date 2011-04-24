@@ -1,0 +1,8 @@
+# this file configures the readline library used by bash and various other utilities
+
+# hitting <TAB> once will show all possible complemention (normally you have
+# to hit <TAB> twice)
+set show-all-if-ambiguous on
+
+# do not casesensitive completion
+set completion-ignore-case on

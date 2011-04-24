@@ -1,0 +1,17 @@
+[color]
+	diff = auto
+	status = auto
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	w = whatchanged
+	diff = di
+[core]
+	excludesfile = ~/.gitignore
+[apply]
+	whitespace = fix
+[diff]
+	tool = p4merge
+[difftool "p4merge"]
+	path = /Applications/p4merge.app/Contents/MacOS/p4merge
