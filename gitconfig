@@ -1,6 +1,20 @@
 [user]
     name = David Givone
-	email = david@givone.net
+    email = david@givone.net
+[diff]
+	tool = p4merge
+[difftool "araxis"]
+	path = "/Applications/Araxis Merge.app/Contents/Utilities/compare"
+[difftool "p4merge"]
+    path = "/Applications/p4merge.app/Contents/MacOS/p4merge"
+[difftool]
+    prompt = false
+[merge]
+	tool = p4merge
+[mergetool "araxis"]
+	path = "/Applications/Araxis Merge.app/Contents/Utilities/compare"
+[mergetool "p4merge"]
+    path = "/Applications/p4merge.app/Contentst/MacOS/p4merge"
 [color]
 	diff = auto
 	status = auto
@@ -14,9 +28,5 @@
 	excludesfile = ~/.gitignore
 [apply]
 	whitespace = fix
-[diff]
-	tool = p4merge
-[difftool "p4merge"]
-	path = /Applications/p4merge.app/Contents/MacOS/p4merge
 [github]
 	user = dgivone
