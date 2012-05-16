@@ -1,5 +1,6 @@
 [user]
     name = David Givone
+	email = david@givone.net
 [color]
 	diff = auto
 	status = auto
