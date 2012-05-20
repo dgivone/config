@@ -22,3 +22,5 @@ shopt -s histappend
 # Append commands to the history every time a prompt is shown,
 # instead of after closing the session.
 PROMPT_COMMAND='history -a'
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
